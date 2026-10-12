@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="icon icon-grid" aria-hidden="true"></span>
+          <p>Dashboard</p>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon icon-home" aria-hidden="true"></span>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-account" aria-hidden="true"></span>
+                Profile
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-message" aria-hidden="true"></span>
+                Messages
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-clock" aria-hidden="true"></span>
+                History
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-tasks" aria-hidden="true"></span>
+                Tasks
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-communities" aria-hidden="true"></span>
+                Communities
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav nav-secondary" aria-label="Support">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon icon-settings" aria-hidden="true"></span>
+                Settings
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-support" aria-hidden="true"></span>
+                Support
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon icon-privacy" aria-hidden="true"></span>
+                Privacy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <header class="header">
+        <form class="search" role="search">
+          <span class="icon icon-search" aria-hidden="true"></span>
+          <input id="search" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <button class="icon-button" type="button" aria-label="Notifications">
+          <span class="icon icon-bell" aria-hidden="true"></span>
+        </button>
+        <div class="header-user">
+          <img src="images/morgan.svg" alt="">
+          <p>Morgan Oakley</p>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="welcome">
+          <img src="images/morgan.svg" alt="">
+          <div>
+            <p class="greeting">Hi there,</p>
+            <h1>Morgan Oakley <span>(@morgan)</span></h1>
+          </div>
+          <div class="actions">
+            <button type="button">New</button>
+            <button type="button">Upload</button>
+            <button type="button">Share</button>
+          </div>
+        </section>
+
+        <div class="content">
+          <section class="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Your Projects</h2>
+
+            <article class="card">
+              <div>
+                <h3>Super Cool Project</h3>
+                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Super Cool Project"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Super Cool Project"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Super Cool Project"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Less Cool Project</h3>
+                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Less Cool Project"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Less Cool Project"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Less Cool Project"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Impossible App</h3>
+                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Impossible App"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Impossible App"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Impossible App"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Easy Peasy App</h3>
+                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Easy Peasy App"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Easy Peasy App"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Easy Peasy App"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Ad Blocker</h3>
+                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Ad Blocker"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Ad Blocker"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Ad Blocker"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Money Maker</h3>
+                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+              </div>
+              <div class="card-actions">
+                <button type="button" aria-label="Star Money Maker"><span class="icon icon-star"></span></button>
+                <button type="button" aria-label="Watch Money Maker"><span class="icon icon-watch"></span></button>
+                <button type="button" aria-label="Share Money Maker"><span class="icon icon-share"></span></button>
+              </div>
+            </article>
+          </section>
+
+          <div class="side">
+            <section class="announcements" aria-labelledby="announcements-title">
+              <h2 id="announcements-title">Announcements</h2>
+              <div class="panel">
+                <article class="announcement">
+                  <h3>Site Maintenance</h3>
+                  <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                </article>
+                <article class="announcement">
+                  <h3>Community Share Day</h3>
+                  <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                </article>
+                <article class="announcement">
+                  <h3>Updated Privacy Policy</h3>
+                  <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="trending" aria-labelledby="trending-title">
+              <h2 id="trending-title">Trending</h2>
+              <div class="panel">
+                <article class="trend">
+                  <img src="images/tegan.svg" alt="">
+                  <div>
+                    <strong>@tegan</strong>
+                    <span>World Peace Builder</span>
+                  </div>
+                </article>
+                <article class="trend">
+                  <img src="images/morgan.svg" alt="">
+                  <div>
+                    <strong>@morgan</strong>
+                    <span>Super Cool Project</span>
+                  </div>
+                </article>
+                <article class="trend">
+                  <img src="images/kendall.svg" alt="">
+                  <div>
+                    <strong>@kendall</strong>
+                    <span>Life Changing App</span>
+                  </div>
+                </article>
+                <article class="trend">
+                  <img src="images/alex.svg" alt="">
+                  <div>
+                    <strong>@alex</strong>
+                    <span>No Traffic Maker</span>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
